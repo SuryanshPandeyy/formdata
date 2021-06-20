@@ -1,0 +1,11 @@
+CREATE DATABASE form;
+
+CREATE TABLE `form`.`form` (
+ `id` INT NOT NULL AUTO_INCREMENT,
+ `name` VARCHAR(255) NOT NULL,
+ `email` VARCHAR(255) NOT NULL,
+ `phone` INT(50) NOT NULL,
+ `address` VARCHAR(1000) NOT NULL,
+ `house` VARCHAR(255) NOT NULL,
+ PRIMARY KEY (`id`)
+) ENGINE = InnoDB;
